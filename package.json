@@ -1,0 +1,21 @@
+{
+  "name": "firestore",
+  "version": "1.0.0",
+  "description": "smaple firestore app",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "nodemon server.js"
+  },
+  "author": "pavani",
+  "license": "ISC",
+  "dependencies": {
+    "config.json": "0.0.4",
+    "express": "^4.17.1",
+    "firebase": "^6.3.3",
+    "firebase-admin": "^8.3.0",
+    "firebase-tools": "^7.2.2",
+    "nodemailer": "^6.3.0",
+    "nodemon": "^1.19.1"
+  }
+}
